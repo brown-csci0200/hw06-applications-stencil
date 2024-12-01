@@ -8,7 +8,7 @@ def test_example():
 
 # Example for calling methods in imp_hw6.py
 def test_example_equal_encoding():
-    # Some examples from the problem statement
+    # Some examples from the handout (you should write tests with more!)
     assert equal_encoding("dad", "bob") == True
     assert equal_encoding("truth", "truce") == False
 
@@ -32,16 +32,16 @@ def test_example_linked_list_helpers():
 # Example for using BST helpers (needed to test part 4)
 def test_example_bst_helpers():
 
-    # Example 2 Make a BST from a list 
+    # Example 1:  Make a BST from a list (matches example 1 in part 4.2 of handout)
     # (Note:  list must already be in correct order to satisfy a BST.
     #  see test_helpers.py for details.)
     bst1 = arr_to_bst([1,None,2,None,None,2])
 
     assert 1 == bst1.val # root
     assert None == bst1.left
-    assert 2 == bst1.right
+    assert 2 == bst1.right.val
 
-    # Example 2:  make a BST from a list
+    # Example 2:  make a BST from a list (matches example 2 in part 4.2 of handout)
     bst2 = arr_to_bst([5,4,8,3,4,7,9])
     assert 5 == bst2.val # Root
 
