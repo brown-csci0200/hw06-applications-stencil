@@ -1,3 +1,5 @@
+from queue import PriorityQueue # Python's built-in priority queue--feel free to use this!
+
 from classes import ListNode, TreeNode
 
 def equal_encoding(s1: str, s2: str) -> bool:
@@ -21,7 +23,11 @@ def equal_encoding(s1: str, s2: str) -> bool:
     Space Complexity Requirement:
     - O(n), where n is the length of string s1 (and s2).
     """
-    pass
+    raise NotImplementedError("TODO") # Remove when you're ready to test!
+
+
+
+
 
 def sum_pair(nums: list[int], target: int) -> set[int]:
     """
@@ -42,7 +48,11 @@ def sum_pair(nums: list[int], target: int) -> set[int]:
     Space Complexity Requirement:
     - O(n), where n is the length of the input list.
     """
-    pass
+    raise NotImplementedError("TODO") # Remove when you're ready to test!
+
+
+
+
 
 def merge_k(lists: list[ListNode]) -> ListNode:
     """
@@ -65,7 +75,10 @@ def merge_k(lists: list[ListNode]) -> ListNode:
 
     For testing, you may convert list[int] to a ListNode (Singly Linked List) using the arr_to_listnode method.
     """
-    pass
+    raise NotImplementedError("TODO") # Remove when you're ready to test!
+
+
+
 
 def ll_modes(nums_list: ListNode) -> set[int]:
     """
@@ -79,7 +92,11 @@ def ll_modes(nums_list: ListNode) -> set[int]:
 
     For testing, you may convert list[int] to a ListNode (Singly Linked List) using the arr_to_listnode method.
     """
-    pass
+    raise NotImplementedError("TODO") # Remove when you're ready to test!
+
+
+
+
 
 def bst_modes(root: TreeNode) -> set[int]:
     """
@@ -99,4 +116,4 @@ def bst_modes(root: TreeNode) -> set[int]:
 
     For testing, you may convert list[int] to a TreeNode using the arr_to_bst method.
     """
-    pass
+    raise NotImplementedError("TODO") # Remove when you're ready to test!
